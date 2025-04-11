@@ -9,7 +9,7 @@ typedef struct Article {
 
 typedef struct Commande {
     int id;
-    char date[11]; // Format : DD/MM/YYYY
+    char date[11]; 
     Article articles[10];
     int nb_articles;
     struct Commande* precedent;
